@@ -14,23 +14,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Shows Three Points for Team A
+     * Adds Three Points for Team A
      */
-    public void showThreePoints(View view) {
+    public void addThreeForTeamA(View view) {
         displayForTeamA(3);
     }
 
     /**
-     * Shows Two Points for Team A
+     * Adds Two Points for Team A
      */
-    public void showTwoPoints(View view) {
+    public void addTwoForTeamA(View view) {
         displayForTeamA(2);
     }
 
     /**
-     * Shows One Point for Team A
+     * Adds One Point for Team A
      */
-    public void showOnePoint(View view) {
+    public void addOneForTeamA(View view) {
         displayForTeamA(1);
     }
 
