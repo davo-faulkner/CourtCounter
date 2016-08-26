@@ -79,4 +79,14 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
     }
+
+    /**
+     * Resets the scores for both teams.
+     */
+    public void resetScores(View view) {
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
+    }
 }
